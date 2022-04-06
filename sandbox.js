@@ -1,66 +1,64 @@
-let age = 25;
-let year = 2019;
-// logs things to console
-console.log(age,year);
-/*comment */
-age = 30;
-console.log(age);
- 
-const points = 100;
-console.log(points);
- 
-var score = 75;
-console.log(score);
- 
-//Strings
-console.log("Hello world");
-let email = "sss120@diu.edu"
-console.log(email);
- 
-//string concatenation
- 
-let firstName = 'ttpp';
-let secondName = 'jjikf';
- 
-let fullName = firstName + " " + secondName;
-console.log(fullName)
- 
-//getting characters
-console.log(fullName[2]);
- 
-//string length
-console.log(fullName.length);
+//let age = 25;
+//let year = 2019;
+//// logs things to console
+//console.log(age,year);
+///*comment */
+//age = 30;
+//console.log(age);
+// 
+//const points = 100;
+//console.log(points);
+// 
+//var score = 75;
+//console.log(score);
+// 
+////Strings
+//console.log("Hello world");
+//let email = "sayy5120@diu.edu"
+//console.log(email);
+// 
+////string concatenation
+// 
+//let firstName = 'ttpp';
+//let secondName = 'jjikf';
+// 
+//let fullName = firstName + " " + secondName;
+//console.log(fullName)
+// 
+////getting characters
+//console.log(fullName[2]);
+// 
+////string length
+//console.log(fullName.length);
  
 //stirng methods
-console.log(fullName.toUpperCase());
-let result = fullName.toUpperCase();
-console.log(result , fullName);
- 
-let index = email.indexOf("@")
-console.log(index);
- 
-//common string methods
- 
- email = 'sadiasnfdf@gmkf';
- 
- let res = email.replace('k','w');
- console.log(res);
- 
-let radius = 10;
-const pi = 3.14;
-console.log(radius, pi);
- 
-// math operator + , -,/,**,%
-console.log(10/20);
-let re = radius % 3;
-let r = pi * radius **2;
-console.log(re);
-console.log(r);
- 
-//order of operators - B I D M A S
-let g = 5*(10-3)**2;
-console.log(g);
-let likes=10;
+//console.log(fullName.toUpperCase());
+//console.log(result , fullName);
+//let index = email.indexOf("@")
+//console.log(index);
+// 
+////common string methods
+// 
+// email = 'saymon15-14388@diu.edu.bd';
+// 
+// let res = email.replace('a','d');
+// console.log(res);
+// 
+//let radius = 10;
+//const pi = 3.14;
+//console.log(radius, pi);
+// 
+//// math operator + , -,/,**,%
+//console.log(10/20);
+//let re = radius % 3;
+//let r = pi * radius **2;
+//console.log(re);
+//console.log(r);
+// 
+////order of operators - B I D M A S
+//let g = 5*(10-3)**2;
+//console.log(g);
+//let likes=10;
  
 //likes = likes +1;
 //likes++;
@@ -68,102 +66,102 @@ let likes=10;
 //likes +=10;
 //likes -=5;
 //likes /=2;
-console.log(likes);
-//NaN - not a number
- 
-//templete strings
-const title = 'best reads of 2019';
-const author = 'Mario';
-const like = 30;
- 
-//concatenation way
-let b = 'the blocked called'+title+'by'+author+'has'+like+'likes';
-console.log(b);
- 
-//template string way
-let rrr = `The blog called ${title} by ${author} has ${like}likes`;
-console.log(rrr);
- 
-//creating html templetes
-let html = `
-<h2>${title}</h2>
-<p>By ${author}</p>
-<span>This blog us ${likes}</span>
-`;
-console.log(html);
- 
-//Array
-let ninjas = ['sinthia','ry','hh'];
-console.log(ninjas);
-console.log(ninjas[2]);
-ninjas[1]= 'pepsi'
-console.log(ninjas);
-let ages=[10,25,1000,369]
-console.log(ages);
-let haha = [10,'ry']
-console.log(haha);
-console.log(ninjas.length);
+//console.log(likes);
+////NaN - not a number
+// 
+////templete strings
+//const title = 'best reads of 2019';
+//const author = 'Mario';
+//const like = 30;
+// 
+////concatenation way
+//let b = 'the blocked called'+title+'by'+author+'has'+like+'likes';
+//console.log(b);
+// 
+////template string way
+//let rrr = `The blog called ${title} by ${author} has ${like}likes`;
+//console.log(rrr);
+// 
+////creating html templetes
+//let html = `
+//<h2>${title}</h2>
+//<p>By ${author}</p>
+//<span>This blog us ${likes}</span>
+//`;
+//console.log(html);
+// 
+////Array
+//let ninjas = ['saymon','ry','hh'];
+//console.log(ninjas);
+//console.log(ninjas[2]);
+//ninjas[1]= 'pepsi'
+//console.log(ninjas);
+//let ages=[10,25,1000,369]
+//console.log(ages);
+//let haha = [10,'ry']
+//console.log(haha);
+//console.log(ninjas.length);
  
  
 //Array method
-let met = ninjas.join('.');
-console.log(met);
-let ind = ninjas.indexOf('hh');
-console.log(ind);
-let con = ninjas.concat(['joey']);
-console.log(con);
-let pt = ninjas.push('ken');
-console.log(ninjas);
-let pop = ninjas.pop();
-console.log(ninjas);
- 
-//undefinied
-let gogo ;
-console.log(gogo , gogo+3 , `the age is ${gogo}`);
- 
-//Null
-let gogoo = null;
-console.log(gogoo , gogoo+3 , `the age is ${gogoo}`);
- 
-//booleans
-console.log(true,false,'true','false');
- 
-//method can return
-let em = 'dfhfh@.co.uk';
-let dfj = ['fy','yu','uiy'];
-let gg = dfj.includes("hu");
-let fdd = em.includes('@');
-console.log(fdd);
-console.log(gg);
- 
-//comparisn operators
-let a = 20;
-console.log(a ==25);
-console.log(a==30);
-console.log(a!=25);
-console.log(a>25);
-console.log(a<25);
-console.log(a>=25);
-console.log(a<=25);
-
-let u = 'shaun';
-console.log(u == 'shaun');
-console.log(u== 'Shaun');
-console.log(u > 'crystal');
- 
- 
+//let met = ninjas.join('.');
+//console.log(met);
+//let ind = ninjas.indexOf('hh');
+//console.log(ind);
+//let con = ninjas.concat(['joey']);
+//console.log(con);
+//let pt = ninjas.push('ken');
+//console.log(ninjas);
+//let pop = ninjas.pop();
+//console.log(ninjas);
+//
+///undefinied
+//let gogo ;
+//console.log(gogo , gogo+3 , `the age is ${gogo}`);
+//
+///Null
+//let gogoo = null;
+//console.log(gogoo , gogoo+3 , `the age is ${gogoo}`);
+//
+///booleans
+//console.log(true,false,'true','false');
+//
+///method can return
+//let em = 'dfhfh@.co.uk';
+//let dfj = ['fy','yu','uiy'];
+//let gg = dfj.includes("hu");
+//let fdd = em.includes('@');
+//console.log(fdd);
+//console.log(gg);
+//
+///comparisn operators
+//let a = 20;
+//console.log(a ==25);
+//console.log(a==30);
+//console.log(a!=25);
+//console.log(a>25);
+//console.log(a<25);
+//console.log(a>=25);
+//console.log(a<=25);
+//
+//let u = 'shaun';
+//console.log(u == 'shaun');
+//console.log(u== 'Shaun');
+//console.log(u > 'crystal');
+// 
+// 
 //const names = ['shaun','mario','luigi'];
 //for(let i=0;i<names.length;i++){
 //    //console.log(names[i]);
 //    let html = `<div>${names[i]}</div>`;
 //    console.log(html);
 //}
- 
- 
-//while loop
- 
+// 
+// 
+////while loop
+// 
 //const names=['shaun','mario','luigi'];
- 
+// 
 //let i=0;
 //while(i<5){
 //   console.log('in loop',i);
@@ -182,9 +180,9 @@ console.log(u > 'crystal');
 //    console.log('value of i is ',i);
 //    i++;
 //}while(i<5);
- 
-//if statement
- 
+// 
+////if statement
+// 
 //const age=25;
 //if(age>20){
 //    console.log('you are over 20 yerars of age');
@@ -201,10 +199,10 @@ console.log(u > 'crystal');
 //}else{
 //    console.log('password is not long enough')
 //}
- 
- 
- 
-//logical operators -OR || AND &&
+// 
+// 
+// 
+////logical operators -OR || AND &&
 //const password='p@ssword12345';
 //if(password.length>=12 && password.includes('@')){
 //    console.log('that password is mighty strong');
@@ -222,26 +220,26 @@ console.log(u > 'crystal');
 //}
 //console.log(!true);
 //console.log(!false);
- 
- 
-//break and continue
+// 
+// 
+////break and continue
 //const scores = [50,25,0,30,100,20,10];
 //for(let i=0;i<scores.length;i++){
- 
+// 
 //    if(scores[i]===0){
 //        continue;
 //    }
- 
+// 
 //    console.log('your score: ',scores[i]);
 //    if(scores[i]===100){
 //        console.log('congrates!you got the top score.');
 //        break;
 //    }
 //}
- 
- 
-//switch statements
- 
+// 
+// 
+////switch statements
+// 
 //const grade='D';
 //switch(grade){
 //    case 'A':
@@ -279,35 +277,33 @@ console.log(u > 'crystal');
 //}
 //console.log('outside 1st code block: ',age,name);
  
-
-
 //function declaration
 //function greet() {
 //    console.log('helo there')
 //}
-
+//
 //greet();
-
-// function expressions
+//
+//// function expressions
 //const speak = function() {
 //    console.log('good day!')
 //};
 //speak();
-
-//arguments and parameters
-
+//
+////arguments and parameters
+//
 //const speak = function(name) {
 //    console.log('good day ${name}')
 //};
 //speak('mario')
-
-// passing different parameter/arguments
+//
+//// passing different parameter/arguments
 //const speak = function(name, time) {
 //    console.log('good ${time} ${name}')
 //};
 //speak('mario', 'morning');
-
-// give this parameters some different values
+//
+//// give this parameters some different values
 //const speak = function(name = 'luigi', time = 'night') {
 //    console.log('good ${time} ${name}')
 //};
@@ -319,28 +315,28 @@ console.log(u > 'crystal');
 //};
 //const area = calcArea(5);
 //console.log(area);
-
-//regular function
+//
+////regular function
 //const calcArea = function(radius) {
 //    return 3.14 * radius ** 2;
 //};
-
-//arrow function
+//
+////arrow function
 //const calcarea = radius => 3.14 * radius ** 2;
-//two parameters we have to use parenthesis
-
+////two parameters we have to use parenthesis
+//
 //const area = calcArea(5);
 //console.log('area is :', area);
-
-//practise arrow function
+//
+////practise arrow function
 //const greet = function() {
 //    return 'hello,world';
 //};
 //const greet = () => 'hello,world';
 //const result = greet();
 //console.log(result);
-
-// practise arrow function 
+//
+//// practise arrow function 
 //const bill = function(products, taxs) {
 //    let total = 0;
 //    for (let i = 0; i < products.length; i++) {
@@ -357,65 +353,64 @@ console.log(u > 'crystal');
 //};
 
 //console.log(bill([10, 15, 30], 0.2));
-
-//method and function 
+//
+////method and function 
 //const name = 'shaun'
-
-//function 
+//
+////function 
 //const greet = () => 'hello';
 //let resultOne = greet();
 //console.log(resultOne);
-
-
-
-// method
+//
+//
+//
+//// method
 //let resultTwo = name.toUpperCase();
 //console.log(resultTwo);
-
-// callbacks & foreach
+//
+//// callbacks & foreach
 //const myFunc = (callbackFunc) => {
-    //do something
+//    //do something
 //    let value = 50;
 //    callbackFunc(value);
 //};
 //myFunc(value => {
-    //do something
+//    //do something
 //    console.log(value);
 //});
-// foreach
+//// foreach
 //let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
-
+//
 //people.forEach(person => {
 //    console.log(person)
 //});
 //using index in second argument in arrow function
 
 //let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
-
+//
 //people.forEach(person, index) => {
 //console.log(index, person)
 //});
-// callbacks and foreach together 
+//// callbacks and foreach together 
 //let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
-
+//
 //const logPerson = (person, index) => {
-
+//
 //    console.log('${index} - hello $ {person}');
 //};
 //people.forEach(logPerson);
-
-
-// get a reference to the 'ul'
+//
+//
+//// get a reference to the 'ul'
 //const ul = document.querySelector('.people');
-
+//
 //const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
-
+//
 //let html = ' ';
 //people.forEach(person => {
-    // create html template
+//    // create html template
 //    html += '<li style="color: purple">${person}</li>';
 //});
-
+//
 //console.log(html);
 //ul.innerHTML = html;
-//Write to Md Nurul Afsar Ikram
